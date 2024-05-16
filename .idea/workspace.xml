@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_3.xml" beforeDir="false" />
+    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Docs : JUnit.md (JUnit Test와 생명주기 메서드)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,34 +54,34 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NestedLifeCycleExampleTest">
-    <configuration name="BeforeAfterEachMultiExampleTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssertSameExampleTest">
+    <configuration name="AssertSameExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.*" />
+          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.BeforeAfterEachMultiExampleTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.AssertSameExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeforeEachAllExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertSameExampleTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.*" />
+          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.BeforeEachAllExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.AssertSameExampleTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertSameExampleTest" />
+        <item itemvalue="JUnit.AssertSameExampleTest.test1" />
         <item itemvalue="JUnit.NestedLifeCycleExampleTest" />
         <item itemvalue="JUnit.NestedExampleTest" />
         <item itemvalue="JUnit.NestedExampleTest.test1" />
-        <item itemvalue="JUnit.BeforeAfterEachMultiExampleTest.test1" />
-        <item itemvalue="JUnit.BeforeEachAllExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715777779013</updated>
-      <workItem from="1715777780120" duration="9287000" />
+      <workItem from="1715777780120" duration="12596000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715778974368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Docs : JUnit.md (JUnit Test와 생명주기 메서드)">
+      <created>1715867671219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715867671219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Docs : unit_test.md&#10;&#10;단위 테스트의 정의" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docs : unit_test.md&#10;&#10;단위 테스트의 정의" />
+    <MESSAGE value="Docs : JUnit.md (JUnit Test와 생명주기 메서드)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docs : JUnit.md (JUnit Test와 생명주기 메서드)" />
   </component>
 </project>
