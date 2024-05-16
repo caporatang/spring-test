@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Docs : Assertions.md (Assertions - 비교 메서드)" />
+    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Docs : Assertions.md -&gt; Assertions_비교_메서드.md 로 이름 변경">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/Assertions_비교_메서드.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/Assertions_비교_메서드.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +44,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.17289424"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,17 +58,17 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssertSameExampleTest">
+  <component name="RunManager" selected="JUnit.AssertTimeoutPreemptivelyExampleTest">
     <configuration name="AssertSameExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.*" />
+          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.comparison.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.AssertSameExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.comparison" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.comparison.AssertSameExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,45 +78,44 @@
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.*" />
+          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.comparison.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.AssertSameExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.comparison" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.comparison.AssertSameExampleTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertTimeoutExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.*" />
+          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.execution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.NestedExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.execution" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.execution.AssertTimeoutExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedExampleTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertTimeoutPreemptivelyExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.*" />
+          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.execution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.NestedExampleTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.execution" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.execution.AssertTimeoutPreemptivelyExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertTimeoutPreemptivelyExampleTest" />
+        <item itemvalue="JUnit.AssertTimeoutExampleTest" />
         <item itemvalue="JUnit.AssertSameExampleTest" />
         <item itemvalue="JUnit.AssertSameExampleTest.test1" />
         <item itemvalue="JUnit.NestedLifeCycleExampleTest" />
-        <item itemvalue="JUnit.NestedExampleTest" />
-        <item itemvalue="JUnit.NestedExampleTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715777779013</updated>
-      <workItem from="1715777780120" duration="13180000" />
+      <workItem from="1715777780120" duration="16297000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -178,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715870951908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Docs : Assertions.md -&gt; Assertions_비교_메서드.md 로 이름 변경">
+      <created>1715871779203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715871779203</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +211,7 @@
     <MESSAGE value="Docs : unit_test.md&#10;&#10;단위 테스트의 정의" />
     <MESSAGE value="Docs : JUnit.md (JUnit Test와 생명주기 메서드)" />
     <MESSAGE value="Docs : Assertions.md (Assertions - 비교 메서드)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docs : Assertions.md (Assertions - 비교 메서드)" />
+    <MESSAGE value="Docs : Assertions.md -&gt; Assertions_비교_메서드.md 로 이름 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docs : Assertions.md -&gt; Assertions_비교_메서드.md 로 이름 변경" />
   </component>
 </project>

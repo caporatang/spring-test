@@ -2,10 +2,10 @@
 Asssertions는 테스트 케이스의 결과를 검증하는 메서드를 제공하는 클래스다.  
 
 ### fail
-무조건 테스트 케이스를 실패로 만드는 메서드이며, 인자로 Throwable을 제공할 수 있다.  
+무조건 테스트 케이스를 실패로 만드는 메서드이며, 인자로 Throwable을 제공할 수 있다.
 
 ````java
-import com.example.springtest.jUnit.assertions.annotation.TestToFail;
+import com.example.springtest.jUnit.assertions.comparison.annotation.TestToFail;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -192,12 +192,12 @@ GreetingWithEquals는 equals 메서드를 구현하여 message가 동일하면 e
 간단하게 얘기해서 같은 객체를 참조하고 있는지를 검증할때 assertSame으로 확인하면 좋다.  
 
 ## assertInstanceOf
-인자로 주어진 객체가 특정 클래스를 구현했는지 검증한다. 클래스가 특정 인터페이스 혹은 다른 클래스를 부모로 상속, 구현했는지도 검증이 가능하다.  
+인자로 주어진 객체가 특정 클래스를 구현했는지 검증한다. 클래스가 특정 인터페이스 혹은 다른 클래스를 부모로 상속, 구현했는지도 검증이 가능하다.
 
 ````java
-import com.example.springtest.jUnit.assertions.annotation.TestToFail;
-import com.example.springtest.jUnit.assertions.helper.Greeting;
-import com.example.springtest.jUnit.assertions.helper.GreetingWithEquals;
+import com.example.springtest.jUnit.assertions.comparison.annotation.TestToFail;
+import com.example.springtest.jUnit.assertions.comparison.helper.Greeting;
+import com.example.springtest.jUnit.assertions.comparison.helper.GreetingWithEquals;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -230,18 +230,20 @@ test3에서 Greeting 객체는 GreetingWithEquals를 구현한 것이 아니기 
 
 ## assertArrayEquals
 인자로 주어진 2개의 Array에 있는 각각 element가 순서대로 모두 일치하는지 검증한다. 내부적으로 equals로 비교하며,
-boolean, char, byte, short, int, long, float, double, Object 여러 타입을 비교를 지원한다.  
+boolean, char, byte, short, int, long, float, double, Object 여러 타입을 비교를 지원한다.
+
 ````java
-import com.example.springtest.jUnit.assertions.annotation.TestToFail;
-import com.example.springtest.jUnit.assertions.helper.Greeting;
+import com.example.springtest.jUnit.assertions.comparison.annotation.TestToFail;
+import com.example.springtest.jUnit.assertions.comparison.helper.Greeting;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class assertArrayEquals {
     @Test
     void test1() {
-        int[] expected = {1,2,3};
-        int[] actual = {1,2,3};
+        int[] expected = {1, 2, 3};
+        int[] actual = {1, 2, 3};
         assertArrayEquals(expected, actual);
     }
 
