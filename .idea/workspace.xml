@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Docs : Assertions_실행.md 작성" />
+    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment=" Test : nittest, JUnit 관련 작성한 테스트 예제 파일">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -157,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715777779013</updated>
-      <workItem from="1715777780120" duration="17153000" />
+      <workItem from="1715777780120" duration="18780000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -194,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715874726627</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" Test : nittest, JUnit 관련 작성한 테스트 예제 파일">
+      <created>1716043578812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716043578812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +227,7 @@
     <MESSAGE value="Docs : Assertions.md (Assertions - 비교 메서드)" />
     <MESSAGE value="Docs : Assertions.md -&gt; Assertions_비교_메서드.md 로 이름 변경" />
     <MESSAGE value="Docs : Assertions_실행.md 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docs : Assertions_실행.md 작성" />
+    <MESSAGE value=" Test : nittest, JUnit 관련 작성한 테스트 예제 파일" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Test : nittest, JUnit 관련 작성한 테스트 예제 파일" />
   </component>
 </project>
