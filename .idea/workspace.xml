@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment=" Rename : JUnit 패키지 경로 수정" />
+    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment=" Rename : JUnit Test예제 파일 패키지 경로 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,79 +64,79 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DisabledOnOsExampleTest">
-    <configuration name="AssertSameExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StubbingVoidExampleTest.test1">
+    <configuration name="StubbingAnswerExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.comparison.*" />
+          <option name="PATTERN" value="com.example.springtest.unitTest.mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.comparison" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.comparison.AssertSameExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.mockito.StubbingAnswerExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertSameExampleTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StubbingReturnExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.comparison.*" />
+          <option name="PATTERN" value="com.example.springtest.unitTest.mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.comparison" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.comparison.AssertSameExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.mockito.StubbingReturnExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StubbingThrowExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springtest.unitTest.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.mockito.StubbingThrowExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StubbingVoidExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springtest.unitTest.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.mockito.StubbingVoidExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StubbingVoidExampleTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springtest.unitTest.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.mockito.StubbingVoidExampleTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertTimeoutExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.execution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.execution" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.execution.AssertTimeoutExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertTimeoutPreemptivelyExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.assertions.execution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.assertions.execution" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.assertions.execution.AssertTimeoutPreemptivelyExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DisabledOnOsExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springtest.jUnit.conditional_execution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.jUnit.conditional_execution" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.jUnit.conditional_execution.DisabledOnOsExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DisabledOnOsExampleTest" />
-        <item itemvalue="JUnit.AssertTimeoutPreemptivelyExampleTest" />
-        <item itemvalue="JUnit.AssertTimeoutExampleTest" />
-        <item itemvalue="JUnit.AssertSameExampleTest" />
-        <item itemvalue="JUnit.AssertSameExampleTest.test1" />
+        <item itemvalue="JUnit.StubbingVoidExampleTest.test1" />
+        <item itemvalue="JUnit.StubbingVoidExampleTest" />
+        <item itemvalue="JUnit.StubbingAnswerExampleTest" />
+        <item itemvalue="JUnit.StubbingThrowExampleTest" />
+        <item itemvalue="JUnit.StubbingReturnExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715777779013</updated>
-      <workItem from="1715777780120" duration="24714000" />
+      <workItem from="1715777780120" duration="34476000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -227,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716720962387</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" Rename : JUnit Test예제 파일 패키지 경로 수정">
+      <created>1716721001236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716721001236</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +265,7 @@
     <MESSAGE value=" Test : Assumptions.md 및 Assumptions에서 제공하는 메서드 예제 작성" />
     <MESSAGE value=" Test : Assertions_테스트_조건부_실행.md 및 조건부 실행 예제코드 작성" />
     <MESSAGE value=" Rename : JUnit 패키지 경로 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Rename : JUnit 패키지 경로 수정" />
+    <MESSAGE value=" Rename : JUnit Test예제 파일 패키지 경로 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Rename : JUnit Test예제 파일 패키지 경로 수정" />
   </component>
 </project>
