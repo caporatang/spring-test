@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment=" Test : Assumptions.md 및 Assumptions에서 제공하는 메서드 예제 작성">
+    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment=" Test : Assertions_테스트_조건부_실행.md 및 조건부 실행 예제코드 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/Assertions_비교_메서드.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assertions_비교_메서드.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/Assertions_실행.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assertions_실행.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/Assertions_테스트_조건부_실행.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assertions_테스트_조건부_실행.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/Assumptions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assumptions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/Junit.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Junit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/AssertTimeOutDuration.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/AssertTimeOutDuration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/BeforeAfterEach.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/BeforeAfterEach.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/BeforeAfterEachMultiExampleTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/BeforeAfterEachMultiExampleTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/BeforeAfter_순서.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/BeforeAfter_순서.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/Duration_Preemptively.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/Duration_Preemptively.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/JUnit_container.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/JUnit_container.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/Nested.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/Nested.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img/NestedLifeCycle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/NestedLifeCycle.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +71,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
   </component>
@@ -163,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715777779013</updated>
-      <workItem from="1715777780120" duration="21926000" />
+      <workItem from="1715777780120" duration="24618000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -214,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716127752628</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" Test : Assertions_테스트_조건부_실행.md 및 조건부 실행 예제코드 작성">
+      <created>1716130903564</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716130903564</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +260,7 @@
     <MESSAGE value="Docs : Assertions_실행.md 작성" />
     <MESSAGE value=" Test : nittest, JUnit 관련 작성한 테스트 예제 파일" />
     <MESSAGE value=" Test : Assumptions.md 및 Assumptions에서 제공하는 메서드 예제 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Test : Assumptions.md 및 Assumptions에서 제공하는 메서드 예제 작성" />
+    <MESSAGE value=" Test : Assertions_테스트_조건부_실행.md 및 조건부 실행 예제코드 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Test : Assertions_테스트_조건부_실행.md 및 조건부 실행 예제코드 작성" />
   </component>
 </project>
