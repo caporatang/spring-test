@@ -32,7 +32,7 @@ public class StepVerifierTest {
 StepVerifier는 각각 호출되는 메서드들을 하나의 스텝으로 구분한다.  
 FirstStep, Step, LastStep으로 구성되며, FirstStep은 처음 받는 이벤트인 onSubscription과 관련되지만 명시적으로 반드시 실행하지 않고 생략도 가능하다.  
 Step은 이후에 들어오는 이벤트들을 순차적으로 검증하며, Step에 데이터를 여러번 검증해야 하는 경우 여러번 자기 자신을 반복적으로 진행시킬 수 있다.  
-LastStep은 최종 결과를 검증하고, 검증에 실패한다면 테스트가 실패되는 step이다.
+LastStep은 최종 결과를 검증하고, 검증에 실패한다면 테스트가 실패되는 step이다.  
 ![StepVerifier](img/StepVerifier.png)        
 흐름을 정리하면 StepVerifier.create로 테스트 환경 구성을 시작하고 FirstStep으로 Subscribe, Step을 통해서 Next, LastStep을 통해서 complete나 에러 이벤트를 확인한 후 verify를 호출해서 테스트를 실행하고 검증 결과를 확인한다.  
 
