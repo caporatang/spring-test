@@ -7,6 +7,13 @@ import reactor.core.publisher.Mono;
 @Service
 @Slf4j
 public class GreetingService {
+
+    private Integer count = 100;
+
+    private void setCount(Integer c) {
+        this.count = c;
+    }
+
     public void hello(String who) {
         // void 테스트
         String greeting = prepareGreeting(who);
