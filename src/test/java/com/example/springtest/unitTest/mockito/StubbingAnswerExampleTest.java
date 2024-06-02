@@ -1,6 +1,6 @@
 package com.example.springtest.unitTest.mockito;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -24,7 +24,7 @@ public class StubbingAnswerExampleTest {
 
     @Test
     void test1() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         when(mocked.greeting(anyString()))
                 .thenAnswer(invocation -> {

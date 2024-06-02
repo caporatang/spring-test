@@ -1,6 +1,6 @@
 package com.example.springtest.unitTest.mockito;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
 
 
@@ -22,7 +22,7 @@ public class ExecuteMockExampleTest {
 
     @Test
     void mockMethods() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         // do nothing
         mocked.hello("world");

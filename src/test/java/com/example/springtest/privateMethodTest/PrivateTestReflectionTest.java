@@ -1,6 +1,6 @@
 package com.example.springtest.privateMethodTest;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +12,7 @@ public class PrivateTestReflectionTest {
     @SneakyThrows
     @Test
     void test1() {
-        GreetingService greetingService = new GreetingService();
+        JUnitGreetingService greetingService = new JUnitGreetingService();
 
         Method privateMethod = greetingService.getClass()
                 .getDeclaredMethod("prepareGreeting", String.class);

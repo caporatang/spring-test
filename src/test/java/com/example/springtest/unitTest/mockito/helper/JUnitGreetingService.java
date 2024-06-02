@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 
 @Service
 @Slf4j
-public class GreetingService {
+public class JUnitGreetingService {
 
     private Integer count = 100;
 

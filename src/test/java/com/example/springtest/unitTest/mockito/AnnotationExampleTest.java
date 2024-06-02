@@ -1,6 +1,6 @@
 package com.example.springtest.unitTest.mockito;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,7 +24,7 @@ import static org.mockito.Mockito.*;
 public class AnnotationExampleTest {
     @RequiredArgsConstructor
     private static class GreetingController {
-        private final GreetingService greetingService;
+        private final JUnitGreetingService greetingService;
     }
 
     @Spy
@@ -32,7 +32,7 @@ public class AnnotationExampleTest {
     private GreetingController greetingController;
 
     @Mock
-    private GreetingService greetingService;
+    private JUnitGreetingService greetingService;
 
     @Captor
     private ArgumentCaptor<String> captor;

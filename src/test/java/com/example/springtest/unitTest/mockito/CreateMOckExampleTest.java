@@ -1,6 +1,6 @@
 package com.example.springtest.unitTest.mockito;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
@@ -21,13 +21,13 @@ public class CreateMOckExampleTest {
 
     @Test
     void createMock() {
-        GreetingService mocked = mock();
-        assertInstanceOf(GreetingService.class, mocked);
+        JUnitGreetingService mocked = mock();
+        assertInstanceOf(JUnitGreetingService.class, mocked);
     }
 
     @Test
     void createMock2() {
-        var mocked = mock(GreetingService.class);
-        assertInstanceOf(GreetingService.class, mocked);
+        var mocked = mock(JUnitGreetingService.class);
+        assertInstanceOf(JUnitGreetingService.class, mocked);
     }
 }

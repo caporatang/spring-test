@@ -1,7 +1,7 @@
 package com.example.springtest.unitTest.mockito;
 
 import com.example.springtest.unitTest.jUnit.assertions.comparison.annotation.TestToFail;
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.CompletableFuture;
@@ -22,7 +22,7 @@ import static org.mockito.Mockito.*;
 public class VerificationTimeoutTest {
     @Test
     void test1() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         mocked.hello("world");
 
@@ -44,7 +44,7 @@ public class VerificationTimeoutTest {
 
     @TestToFail
     void test2() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         var mode = timeout(1000).atLeastOnce();
         verify(mocked, mode).hello("world");

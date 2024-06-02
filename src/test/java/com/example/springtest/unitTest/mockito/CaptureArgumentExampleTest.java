@@ -1,6 +1,6 @@
 package com.example.springtest.unitTest.mockito;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 
@@ -23,7 +23,7 @@ import static org.mockito.Mockito.*;
 public class CaptureArgumentExampleTest {
     @Test
     void captureArgument() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         mocked.greeting("world");
         mocked.greeting("taeil");

@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 public class GreetingController {
     private final GreetingService greetingService;
 
-    public Mono<String> greetinmg(
+    public Mono<String> greeting(
             @RequestParam String who
     ) {
         return greetingService.greetingMono(who);

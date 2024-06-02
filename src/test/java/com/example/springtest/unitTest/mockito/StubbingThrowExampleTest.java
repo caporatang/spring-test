@@ -1,8 +1,7 @@
 package com.example.springtest.unitTest.mockito;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
@@ -23,7 +22,7 @@ import static org.mockito.Mockito.when;
 public class StubbingThrowExampleTest {
     @Test
     void test1 () {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         when(mocked.greeting("world"))
                 .thenThrow(IllegalStateException.class);
@@ -35,7 +34,7 @@ public class StubbingThrowExampleTest {
 
     @Test
     void test2() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
         when(mocked.greeting("world"))
                 .thenThrow(
                         new IllegalStateException(),

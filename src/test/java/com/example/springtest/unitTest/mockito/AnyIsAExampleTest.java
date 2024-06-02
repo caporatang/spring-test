@@ -1,6 +1,6 @@
 package com.example.springtest.unitTest.mockito;
 
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -23,7 +23,7 @@ import static org.mockito.Mockito.when;
 public class AnyIsAExampleTest {
     @Test
     void test1() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         when(mocked.greeting(any(String.class)))
                 .thenReturn("hi world");
@@ -33,7 +33,7 @@ public class AnyIsAExampleTest {
 
     @Test
     void test2() {
-        GreetingService mocked = mock();
+        JUnitGreetingService mocked = mock();
 
         when(mocked.greeting(isA(String.class)))
                 .thenReturn("hi world");

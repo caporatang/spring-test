@@ -1,7 +1,7 @@
 package com.example.springtest.unitTest.mockito;
 
 import com.example.springtest.unitTest.jUnit.assertions.comparison.annotation.TestToFail;
-import com.example.springtest.unitTest.mockito.helper.GreetingService;
+import com.example.springtest.unitTest.mockito.helper.JUnitGreetingService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -32,14 +32,14 @@ public class CreateSpyExampleTest {
 
     @Test
     void createSpy() {
-        GreetingService spy = spy();
+        JUnitGreetingService spy = spy();
         assertNotNull(spy);
     }
 
     @Test
     void createSpyByObj() {
-        GreetingService obj = new GreetingService();
-        GreetingService spy = spy(obj);
+        JUnitGreetingService obj = new JUnitGreetingService();
+        JUnitGreetingService spy = spy(obj);
         assertNotNull(spy);
     }
 
