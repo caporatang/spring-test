@@ -1,4 +1,4 @@
-package com.example.springtest.sliceTest;
+package com.example.springtest.sliceTest.contextConfiguration;
 
 import com.example.springtest.sliceTest.domain.UserEntity;
 import com.example.springtest.sliceTest.domain.UserR2dbcRepository;

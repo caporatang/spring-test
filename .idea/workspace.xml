@@ -4,37 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment=" Test : unitTest Mockito 예제 코드">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Test : ContextConfiguration 예제 테스트 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/SpringTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/SpringTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/controller/GreetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/domain/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/domain/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/sliceTest.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/sliceTest.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/MethodObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/MethodObjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/PrivateTestReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/PrivateTestReflectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/PrivateTestReflectionTestUtilsExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/PrivateTestReflectionTestUtilsExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnnotationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnnotationExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnnotationExtensionsExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnnotationExtensionsExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnyIsAExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnyIsAExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/ArgumentMatcherEqExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/ArgumentMatcherEqExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CaptureArgumentExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CaptureArgumentExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CreateMOckExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CreateMOckExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CreateSpyExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CreateSpyExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/ExecuteMockExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/ExecuteMockExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingAnswerExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingAnswerExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingReturnExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingReturnExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingThrowExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingThrowExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingVoidExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingVoidExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerificationTimeoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerificationTimeoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerificationTimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerificationTimesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerifyArgsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerifyArgsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/GreetingGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/JUnitGreetingGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/GreetingSeparatedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/JUnitGreetingSeparatedService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/JUnitGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationFailedExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationFailedExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationMockBeanExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationMockBeanExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationWithApplicationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationWithApplicationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationWithTestCOnfigurationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationWithTestCOnfigurationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +56,8 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.17289424&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.17289424&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5f26101122a16ca6478890ada8c61c57&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -90,80 +68,83 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springtest.sliceTest" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContextConfigurationWithApplicationExampleTest">
-    <configuration name="BeforeAfterEachExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ContextConfigurationMockBeanExampleTest">
+    <configuration name="ContextConfigurationExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.unitTest.jUnit.*" />
+          <option name="PATTERN" value="com.example.springtest.sliceTest.contextConfiguration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.jUnit" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.jUnit.BeforeAfterEachExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.sliceTest.contextConfiguration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.sliceTest.contextConfiguration.ContextConfigurationExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContextConfigurationWithApplicationExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextConfigurationFailedExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.sliceTest.*" />
+          <option name="PATTERN" value="com.example.springtest.sliceTest.contextConfiguration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.sliceTest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.sliceTest.ContextConfigurationWithApplicationExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.sliceTest.contextConfiguration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.sliceTest.contextConfiguration.ContextConfigurationFailedExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisabledIfEnabledIfExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextConfigurationMockBeanExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.unitTest.jUnit.conditional_execution.*" />
+          <option name="PATTERN" value="com.example.springtest.sliceTest.contextConfiguration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.jUnit.conditional_execution" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.jUnit.conditional_execution.DisabledIfEnabledIfExampleTest" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.sliceTest.contextConfiguration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.sliceTest.contextConfiguration.ContextConfigurationMockBeanExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisabledIfSystemPropertyExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextConfigurationMockBeanExampleTest.when_request_get_then_return_greeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springtest.unitTest.jUnit.conditional_execution.*" />
+          <option name="PATTERN" value="com.example.springtest.sliceTest.contextConfiguration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.jUnit.conditional_execution" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.jUnit.conditional_execution.DisabledIfSystemPropertyExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StubbingVoidExampleTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springtest.unitTest.mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtest.unitTest.mockito" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtest.unitTest.mockito.StubbingVoidExampleTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.example.springtest.sliceTest.contextConfiguration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.sliceTest.contextConfiguration.ContextConfigurationMockBeanExampleTest" />
+      <option name="METHOD_NAME" value="when_request_get_then_return_greeting" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextConfigurationWithTestCOnfigurationExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springtest.sliceTest.contextConfiguration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springtest.sliceTest.contextConfiguration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springtest.sliceTest.contextConfiguration.ContextConfigurationWithTestCOnfigurationExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContextConfigurationWithApplicationExampleTest" />
-        <item itemvalue="JUnit.BeforeAfterEachExampleTest" />
-        <item itemvalue="JUnit.DisabledIfSystemPropertyExampleTest" />
-        <item itemvalue="JUnit.DisabledIfEnabledIfExampleTest" />
-        <item itemvalue="JUnit.StubbingVoidExampleTest.test1" />
+        <item itemvalue="JUnit.ContextConfigurationMockBeanExampleTest" />
+        <item itemvalue="JUnit.ContextConfigurationMockBeanExampleTest.when_request_get_then_return_greeting" />
+        <item itemvalue="JUnit.ContextConfigurationFailedExampleTest" />
+        <item itemvalue="JUnit.ContextConfigurationExampleTest" />
+        <item itemvalue="JUnit.ContextConfigurationWithTestCOnfigurationExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +175,8 @@
       <option name="presentableId" value="Default" />
       <updated>1715777779013</updated>
       <workItem from="1715777780120" duration="34476000" />
+      <workItem from="1717329244769" duration="5308000" />
+      <workItem from="1718113693783" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -265,7 +248,35 @@
       <option name="project" value="LOCAL" />
       <updated>1716721001236</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fix : GreetingController, GreetingService, GreetingGenerator &#10;&#10;sliceTest 예제 작성시 빈 이름 동일하여 충돌 -&gt; JUnit* 으로 수정">
+      <created>1717329098970</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717329098970</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chore : r2dbc 연결 설정 추가">
+      <created>1717329263607</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717329263607</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Docs : sliceTest.md -&gt; ContextConfiguration 내용 추가">
+      <created>1717331973022</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717331973022</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Test : ContextConfiguration 예제 테스트 코드 추가">
+      <created>1717332014166</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717332014166</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +304,10 @@
     <MESSAGE value=" Test : Assertions_테스트_조건부_실행.md 및 조건부 실행 예제코드 작성" />
     <MESSAGE value=" Rename : JUnit 패키지 경로 수정" />
     <MESSAGE value=" Rename : JUnit Test예제 파일 패키지 경로 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Rename : JUnit Test예제 파일 패키지 경로 수정" />
+    <MESSAGE value="Fix : GreetingController, GreetingService, GreetingGenerator &#10;&#10;sliceTest 예제 작성시 빈 이름 동일하여 충돌 -&gt; JUnit* 으로 수정" />
+    <MESSAGE value="Chore : r2dbc 연결 설정 추가" />
+    <MESSAGE value="Docs : sliceTest.md -&gt; ContextConfiguration 내용 추가" />
+    <MESSAGE value="Test : ContextConfiguration 예제 테스트 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test : ContextConfiguration 예제 테스트 코드 추가" />
   </component>
 </project>

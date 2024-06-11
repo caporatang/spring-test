@@ -1,4 +1,4 @@
-package com.example.springtest.sliceTest;
+package com.example.springtest.sliceTest.contextConfiguration;
 
 import com.example.springtest.SpringTestApplication;
 import com.example.springtest.sliceTest.controller.GreetingController;
