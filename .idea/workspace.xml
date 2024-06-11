@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Test : ContextConfiguration 예제 테스트 코드 추가">
+    <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Chore : ContextConfiguration 예제 테스트 코드 디렉토리 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationFailedExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationFailedExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationMockBeanExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationMockBeanExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationWithApplicationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationWithApplicationExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/ContextConfigurationWithTestCOnfigurationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationWithTestCOnfigurationExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +170,7 @@
       <updated>1715777779013</updated>
       <workItem from="1715777780120" duration="34476000" />
       <workItem from="1717329244769" duration="5308000" />
-      <workItem from="1718113693783" duration="820000" />
+      <workItem from="1718113693783" duration="3070000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
@@ -276,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717332014166</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Chore : ContextConfiguration 예제 테스트 코드 디렉토리 변경">
+      <created>1718114551880</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718114551880</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +309,7 @@
     <MESSAGE value="Chore : r2dbc 연결 설정 추가" />
     <MESSAGE value="Docs : sliceTest.md -&gt; ContextConfiguration 내용 추가" />
     <MESSAGE value="Test : ContextConfiguration 예제 테스트 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test : ContextConfiguration 예제 테스트 코드 추가" />
+    <MESSAGE value="Chore : ContextConfiguration 예제 테스트 코드 디렉토리 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chore : ContextConfiguration 예제 테스트 코드 디렉토리 변경" />
   </component>
 </project>
