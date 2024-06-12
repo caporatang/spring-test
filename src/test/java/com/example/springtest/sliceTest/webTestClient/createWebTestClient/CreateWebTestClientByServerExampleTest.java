@@ -1,4 +1,4 @@
-package com.example.springtest.sliceTest.webTestClient;
+package com.example.springtest.sliceTest.webTestClient.createWebTestClient;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;

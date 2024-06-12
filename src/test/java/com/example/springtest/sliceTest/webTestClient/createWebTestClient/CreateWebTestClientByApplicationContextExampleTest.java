@@ -1,4 +1,4 @@
-package com.example.springtest.sliceTest.webTestClient;
+package com.example.springtest.sliceTest.webTestClient.createWebTestClient;
 
 import com.example.springtest.sliceTest.controller.GreetingController;
 import com.example.springtest.sliceTest.service.GreetingService;
@@ -7,13 +7,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.reactive.server.WebTestClient;
+import org.springframework.web.reactive.config.EnableWebFlux;
 
 /**
  * packageName : com.example.springtest.sliceTest.webTestClient
- * fileName : CreateWebTestClientByControllerExampleTest
+ * fileName : CreateWebTestClientByApplicationContextExampleTest
  * author : taeil
  * date : 6/11/24
  * description :
@@ -22,6 +24,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
  * -------------------------------------------------------
  * 6/11/24        taeil                   최초생성
  */
+@EnableWebFlux
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(
         classes = {
@@ -29,26 +32,21 @@ import org.springframework.test.web.reactive.server.WebTestClient;
                 GreetingControllerAdvice.class
         }
 )
-public class CreateWebTestClientByControllerExampleTest {
-        @MockBean
-        GreetingService mockGreetingService;
+public class CreateWebTestClientByApplicationContextExampleTest {
+    @MockBean
+    GreetingService mockGreetingService;
 
-        @Autowired
-        GreetingController greetingController;
+    @Autowired
+    ApplicationContext applicationContext;
 
-        @Autowired
-        GreetingControllerAdvice greetingControllerAdvice;
+    WebTestClient webTestClient;
 
-        WebTestClient webTestClient;
+    @BeforeEach
+    void setup() {
+        webTestClient = WebTestClient.bindToApplicationContext(
+                applicationContext
+        ).build();
+    }
 
-        @BeforeEach
-        void setup() {
-                webTestClient = WebTestClient.bindToController(
-                                greetingController
-                        ).corsMappings(cors ->
-                                cors.addMapping("/api/**"))
-                        .controllerAdvice(greetingControllerAdvice)
-                        .build();
-        }
 
 }
