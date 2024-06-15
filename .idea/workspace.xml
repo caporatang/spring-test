@@ -5,14 +5,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b9dfad3-f859-4527-9ae2-f9e261bb242e" name="Changes" comment="Docs : WebTestClient.md 작성">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/response/GreetingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/response/GreetingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/img/privateMethodTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/img/privateMethodTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/img/shoulditestprivatemethods.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/img/shoulditestprivatemethods.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/privateMethodTest.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/privateMethodTest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/WebTestClient.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/sliceTest/WebTestClient.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/sliceTest/controller/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/domain/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/sliceTest/domain/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/domain/UserR2dbcRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/sliceTest/domain/UserR2dbcRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/response/GreetingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/sliceTest/response/GreetingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/service/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/sliceTest/service/GreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/sliceTest/sliceTest.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/sliceTest/sliceTest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assertions_비교_메서드.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/Assertions_비교_메서드.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assertions_실행.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/Assertions_실행.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assertions_테스트_조건부_실행.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/Assertions_테스트_조건부_실행.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Assumptions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/Assumptions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/Junit.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/Junit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/AssertTimeOutDuration.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/AssertTimeOutDuration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/BeforeAfterEach.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/BeforeAfterEach.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/BeforeAfterEachMultiExampleTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/BeforeAfterEachMultiExampleTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/BeforeAfter_순서.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/BeforeAfter_순서.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/Duration_Preemptively.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/Duration_Preemptively.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/JUnit_container.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/JUnit_container.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/Nested.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/Nested.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit/img/NestedLifeCycle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/jUnit/img/NestedLifeCycle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/mockito/mockito.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/mockito/mockito.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/reactorTest/img/StepVerifier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/reactorTest/img/StepVerifier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/reactorTest/reactor_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/reactorTest/reactor_test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/unit_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar/unitTest/unit_test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/MethodObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/privateMethodTest/MethodObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/PrivateTestReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/privateMethodTest/PrivateTestReflectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/privateMethodTest/PrivateTestReflectionTestUtilsExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/privateMethodTest/PrivateTestReflectionTestUtilsExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/contextConfiguration/ContextConfigurationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationFailedExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/contextConfiguration/ContextConfigurationFailedExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationMockBeanExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/contextConfiguration/ContextConfigurationMockBeanExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationWithApplicationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/contextConfiguration/ContextConfigurationWithApplicationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/ContextConfigurationWithTestCOnfigurationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/contextConfiguration/ContextConfigurationWithTestCOnfigurationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/contextConfiguration/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/contextConfiguration/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/helper/ExampleTestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/helper/ExampleTestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/createWebTestClient/CreateWebTestClientByApplicationContextExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/createWebTestClient/CreateWebTestClientByApplicationContextExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/createWebTestClient/CreateWebTestClientByControllerExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/createWebTestClient/CreateWebTestClientByControllerExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/createWebTestClient/CreateWebTestClientByServerExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/createWebTestClient/CreateWebTestClientByServerExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/helper/GreetingControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/helper/GreetingControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/helper/GreetingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/helper/GreetingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/verificationWebTestClient/WebTestClientBodyExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/verificationWebTestClient/WebTestClientBodyExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/verificationWebTestClient/WebTestClientCookieExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/verificationWebTestClient/WebTestClientCookieExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/verificationWebTestClient/WebTestClientHeaderExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/verificationWebTestClient/WebTestClientHeaderExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/sliceTest/webTestClient/verificationWebTestClient/WebTestClientStatusExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/sliceTest/webTestClient/verificationWebTestClient/WebTestClientStatusExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/BeforeAfterEachExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/BeforeAfterEachExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/BeforeAfterEachMultiExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/BeforeAfterEachMultiExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/BeforeEachAllExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/BeforeEachAllExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/NestedExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/NestedExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/NestedLifeCycleExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/NestedLifeCycleExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/SimpleTestExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/SimpleTestExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/AssertEqualsOrNotExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/AssertEqualsOrNotExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/AssertLineMatchExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/AssertLineMatchExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/AssertNullOrNotExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/AssertNullOrNotExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/AssertSameExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/AssertSameExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/AssertTrueFalseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/AssertTrueFalseExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/AsssertInstanceOfExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/AsssertInstanceOfExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/FailExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/FailExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/annotation/TestToFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/annotation/TestToFail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/assertArrayEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/assertArrayEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/helper/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/helper/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/comparison/helper/GreetingWithEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/comparison/helper/GreetingWithEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/execution/AssertAllExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/execution/AssertAllExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/execution/AssertDoesNotThrowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/execution/AssertDoesNotThrowExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/execution/AssertThrowsExactlyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/execution/AssertThrowsExactlyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/execution/AssertThrowsExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/execution/AssertThrowsExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/execution/AssertTimeoutExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/execution/AssertTimeoutExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assertions/execution/AssertTimeoutPreemptivelyExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assertions/execution/AssertTimeoutPreemptivelyExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assumptions/AbortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assumptions/AbortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assumptions/AssumeTrueFalseExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assumptions/AssumeTrueFalseExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assumptions/AssumingThatExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assumptions/AssumingThatExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/assumptions/TestToIgnore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/assumptions/TestToIgnore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/DisabledForJreRangeExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/DisabledForJreRangeExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/DisabledIfEnabledIfExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/DisabledIfEnabledIfExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/DisabledIfSystemPropertyExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/DisabledIfSystemPropertyExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/DisabledJreExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/DisabledJreExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/DisabledOnOsExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/DisabledOnOsExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/DisabledTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/DisabledTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/TestOnMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/TestOnMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/jUnit/conditional_execution/TestOnMacExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/jUnit/conditional_execution/TestOnMacExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnnotationExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/AnnotationExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnnotationExtensionsExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/AnnotationExtensionsExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/AnyIsAExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/AnyIsAExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/ArgumentMatcherEqExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/ArgumentMatcherEqExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CaptureArgumentExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/CaptureArgumentExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CreateMOckExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/CreateMOckExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/CreateSpyExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/CreateSpyExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/ExecuteMockExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/ExecuteMockExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingAnswerExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/StubbingAnswerExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingReturnExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/StubbingReturnExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingThrowExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/StubbingThrowExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/StubbingVoidExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/StubbingVoidExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerificationTimeoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/VerificationTimeoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerificationTimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/VerificationTimesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/VerifyArgsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/VerifyArgsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/JUnitGreetingGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/helper/JUnitGreetingGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/JUnitGreetingSeparatedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/helper/JUnitGreetingSeparatedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/mockito/helper/JUnitGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/mockito/helper/JUnitGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/FirstStepExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/FirstStepExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/LastStepExpectCompleteExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/LastStepExpectCompleteExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/LastStepExpectErrorExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/LastStepExpectErrorExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/LastStepExpectTimeoutExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/LastStepExpectTimeoutExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/LastStepThenCancelExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/LastStepThenCancelExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/LastStepVerifyExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/LastStepVerifyExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/StepContextExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/StepContextExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/StepOnNextExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/StepOnNextExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/StepVerifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/StepVerifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/StepVerifierVerifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/StepVerifierVerifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/TestPublisherAssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/TestPublisherAssertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/TestPublisherSignalExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/TestPublisherSignalExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springtest/unitTest/reactorTest/WithVirtualTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springtest/testGrammar/unitTest/reactorTest/WithVirtualTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +146,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-test" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-test" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -82,29 +182,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/taeil/study/spring-test/src/main/java/com/example/springtest/unitTest/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.17289424",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "200ad582b496323e20af91567e80967d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/taeil/study/spring-test/src/main/java/com/example/springtest/unitTest/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.17289424&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;200ad582b496323e20af91567e80967d&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/testGrammar" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/jUnit" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/springtest/unitTest/img" />
     </key>
@@ -261,6 +362,7 @@
       <workItem from="1718113693783" duration="9884000" />
       <workItem from="1718297352841" duration="1775000" />
       <workItem from="1718461348808" duration="880000" />
+      <workItem from="1718463378374" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="Docs : unit_test.md&#10;&#10;단위 테스트의 정의">
       <created>1715778974368</created>
